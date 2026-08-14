@@ -57,7 +57,7 @@ jobs:
           sudo ln -s /opt/allure/bin/allure /usr/bin/allure
           allure --version
 
-      # 7️⃣ Generate Allure HTML report (NO DATA LOSS)
+      # 7️⃣ Generate Allure HTML report
       - name: Generate Allure Report
         if: always()
         run: |
